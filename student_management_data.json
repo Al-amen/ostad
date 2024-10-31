@@ -1,0 +1,1 @@
+{"students": {"123": {"name": "alamen", "age": 123, "address": "ala", "student_id": "123", "grades": {"simulation": "A+"}, "courses": ["simulation"]}}, "courses": {"csit401": {"course_name": "simulation", "course_code": "csit401", "instructor": "masud", "students": ["123"]}}}
