@@ -15,7 +15,8 @@ function displayProducts(products) {
         const productCard = `
             <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
                 <div class="card">
-                    <img src="${product.image}" class="card-img-top" alt="${product.title}">
+                    <img src="${product.image}" class="card-img-top" alt="${product.title}" style="height: 200px; object-fit: contain;">
+
                     <div class="card-body">
                         <h5 class="card-title">${product.title}</h5>
                         <p class="card-text">${product.description.slice(0, 80)}...</p>
